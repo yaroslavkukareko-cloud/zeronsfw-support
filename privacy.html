@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>ZeroNSFW Privacy Policy</title>
+  <style>
+    body{font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial;max-width:900px;margin:40px auto;padding:0 16px;color:#111}
+    h1,h2{line-height:1.2}
+    code{background:#f3f3f3;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <h1>ZeroNSFW Privacy Policy</h1>
+  <p><b>Last updated:</b> 2026-03-03</p>
+
+  <h2>Overview</h2>
+  <p>
+    ZeroNSFW helps prevent exposure to potentially NSFW images by analyzing images locally in the browser
+    and optionally blocking access to websites based on user settings.
+  </p>
+
+  <h2>Data processing</h2>
+  <ul>
+    <li><b>Image analysis:</b> images are fetched from the website you are visiting and analyzed locally to estimate NSFW probability. The analysis result is used to block content on the page.</li>
+    <li><b>Search query blocking:</b> on supported search pages, the extension may read the query from the page URL to block certain queries locally when enabled.</li>
+  </ul>
+  <p>
+    ZeroNSFW does <b>not</b> send image contents, browsing history, search queries, or analysis results to the developer or any third party.
+  </p>
+
+  <h2>Data collection and sharing</h2>
+  <p>
+    ZeroNSFW does not collect, sell, or transfer personal data to third parties. All processing is performed locally on your device.
+  </p>
+
+  <h2>Local storage</h2>
+  <p>
+    The extension stores settings locally using Chrome storage, for example:
+  </p>
+  <ul>
+    <li><code>enabled</code>, <code>mode</code> (filter mode)</li>
+    <li><code>siteBlockEnabled</code>, <code>autoPorn</code> (site blocking options)</li>
+    <li><code>blockedDomains</code>, <code>allowDomains</code> (your blocklist/allowlist)</li>
+  </ul>
+  <p>
+    These settings remain on your device/account until you change them or remove the extension.
+  </p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><b>Storage</b> — to save your settings.</li>
+    <li><b>Host access (all sites)</b> — to analyze images on the websites you visit.</li>
+    <li><b>Declarative Net Request</b> — to block main-frame navigation for domains/URLs based on your settings.</li>
+    <li><b>Offscreen</b> — to perform local image decoding and inference in MV3.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    Support page: <a href="https://yaroslavkukareko-cloud.github.io/zeronsfw-support/">https://yaroslavkukareko-cloud.github.io/zeronsfw-support/</a>
+  </p>
+</body>
+</html>
