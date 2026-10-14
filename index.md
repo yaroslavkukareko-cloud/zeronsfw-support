@@ -1,8 +1,5 @@
 # ZeroNSFW - Support
 
-**Donations are optional and do not unlock any features.**  
-**ZeroNSFW is not affiliated with Google or Chrome Web Store.**
-
 ## Contact
 Email: zeronsfwhelp@gmail.com
 
@@ -17,8 +14,6 @@ If something doesn’t work, email us with:
   - What you expected vs what happened
   - Screenshot (optional, but helpful)
 
-We do not need (and do not want) any sensitive personal information.
-
 ## FAQ
 
 ### How do I turn protection On/Off?
@@ -26,14 +21,10 @@ Open the ZeroNSFW popup and press the main power button.
 If sites are still blocked, also check **Site Blocking** settings (see troubleshooting below).
 
 ### What do Light / Normal / Strict modes mean?
-Modes control how sensitive the image filter is:
+Modes control how sensitive the filter is:
 - **Light**: fewer false positives, less aggressive blocking
 - **Normal**: balanced (recommended)
 - **Strict**: maximum filtering, may hide more borderline content
-
-### Why are images hidden first?
-ZeroNSFW works preventively: images can be hidden before they are shown, then revealed after local analysis.
-This reduces the chance of “unsafe” images flashing on screen.
 
 ### Does ZeroNSFW upload images or browsing data anywhere?
 No. Image analysis is performed locally in your browser.  
@@ -65,9 +56,9 @@ Check:
 1) The extension is enabled in `chrome://extensions`
 2) The site is not in your allow/block lists unexpectedly
 3) Reload the page (some sites are heavy SPAs and need a refresh)
-4) If still broken, email us a bug report
+4) If still broken, please email us a bug report
 
-## Donate (crypto)
+## Support the project:
 
 - **TON:** UQANY-hZ1zw2E9tTOZwo4khPX4QM6bhNREij229c9oOHxcaC
 - **USDT (TRC20):** JYBkbZt9AprNUVXHEDRnE4ZQad3V2EtGk  
